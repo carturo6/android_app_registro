@@ -16,4 +16,15 @@
     <color name="azul200">#90CAF9</color>
     <color name="azul100">#BBDEFB</color>
 
+
+    <color name="cyan100">#B2EBF2</color>
+    <color name="cyan200">#80DEEA</color>
+    <color name="cyan300">#4DD0E1</color>
+    <color name="cyan400">#26C6DA</color>
+    <color name="cyan500">#00BCD4</color>
+    <color name="cyan600">#00ACC1</color>
+    <color name="cyan700">#0097A7</color>
+    <color name="cyan800">#00838F</color>
+    <color name="cyan900">#006064</color>
+
 </resources>
