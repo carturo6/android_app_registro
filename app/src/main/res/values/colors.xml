@@ -3,4 +3,17 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+
+
+    <color name="azul900">#0D47A1</color>
+    <color name="azul800">#1565C0</color>
+    <color name="azul700">#1976D2</color>
+    <color name="azul600">#1E88E5</color>
+    <color name="azul500">#2196F3</color>
+    <color name="azul400">#42A5F5</color>
+    <color name="azul300">#64B5F6</color>
+    <color name="azul200">#90CAF9</color>
+    <color name="azul100">#BBDEFB</color>
+
 </resources>
