@@ -18,22 +18,12 @@
         app:layout_constraintTop_toBottomOf="parent"
         tools:layout_editor_absoluteX="0dp">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:background="@drawable/gradiente_index_info"
-            android:textColor="#000"
-            android:textSize="14dp"
-            android:layout_marginTop="300dp"
-            android:text="@string/info" />
 
         <Button
             android:id="@+id/btnRedondo"
             android:layout_width="match_parent"
             android:layout_height="66dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="400dp"
             android:background="@drawable/borde_redondo"
             android:text="Entrar"
             android:textColor="#218dd0"
@@ -56,7 +46,7 @@
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
 
-
+    <!--
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
@@ -70,7 +60,14 @@
             android:textColor="#fff"
             android:textSize="40dp" />
 
-
+    -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logo" />
     </LinearLayout>
 
 
