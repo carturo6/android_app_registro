@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">app_registry</string>
+    <string name="Consulta">Consulta</string>
+
+    <string name="info">Puedes registrar toda tu informacion dia a dia.</string>
 </resources>

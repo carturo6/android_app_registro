@@ -9,6 +9,7 @@
     tools:context=".ui.main.MainFragment">
 
 
+    <!--Agregando seccion del layout con el boton -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,23 +18,35 @@
         app:layout_constraintTop_toBottomOf="parent"
         tools:layout_editor_absoluteX="0dp">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/gradiente_index_info"
+            android:textColor="#000"
+            android:textSize="14dp"
+            android:layout_marginTop="300dp"
+            android:text="@string/info" />
+
         <Button
             android:id="@+id/btnRedondo"
             android:layout_width="match_parent"
             android:layout_height="66dp"
-            android:layout_marginTop="600dp"
+            android:layout_marginTop="100dp"
             android:background="@drawable/borde_redondo"
             android:text="Entrar"
             android:textColor="#218dd0"
             tools:ignore="MissingConstraints" />
+
+
     </LinearLayout>
 
 
 
 
 
-
-
+    <!-- Agregando seccion del layout con la bienvenida -->
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -59,6 +72,10 @@
 
 
     </LinearLayout>
+
+
+
+    <!--Agregando el layout para informacion-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
