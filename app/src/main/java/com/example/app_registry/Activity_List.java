@@ -11,10 +11,47 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Activity_List extends AppCompatActivity {
 
+    //Objeto de tipo bottom
+    BottomNavigationView mBottomNavigation;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
+
+
+        //Instancinado el mBottomNavigation
+        mBottomNavigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
+
+        //El bottomNavigation tendra un evento que permita saber cual de las opciones a seleccionado
+        mBottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+
+                //Con una serie de if podremos saber cual de las opciones el usuario a seleccionado
+
+                if(menuItem.getItemId()== R.id.nav_home){
+
+                }
+
+                if(menuItem.getItemId()== R.id.nav_list){
+
+                }
+
+                if(menuItem.getItemId()== R.id.nav_add){
+
+                }
+
+                /*
+
+                Cada if seleccionado representa el ingreso a un fragment
+
+                Un fragment es un pantalla viviendo dentro de un activity
+                 */
+
+                return true;
+            }
+        });
 
             }
 }
