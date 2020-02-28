@@ -3,10 +3,14 @@ package com.example.app_registry;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.app_registry.fragments.AddFragment;
+import com.example.app_registry.fragments.HomeFragment;
+import com.example.app_registry.fragments.ListFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Activity_List extends AppCompatActivity {
@@ -31,15 +35,17 @@ public class Activity_List extends AppCompatActivity {
                 //Con una serie de if podremos saber cual de las opciones el usuario a seleccionado
 
                 if(menuItem.getItemId()== R.id.nav_home){
+                    //Mostrar el fragment requerido usando el metod del final
+                    showSelectedFragment(new HomeFragment());
 
                 }
 
                 if(menuItem.getItemId()== R.id.nav_list){
-
+                    showSelectedFragment(new ListFragment());
                 }
 
                 if(menuItem.getItemId()== R.id.nav_add){
-
+                    showSelectedFragment(new AddFragment());
                 }
 
                 /*
@@ -53,5 +59,12 @@ public class Activity_List extends AppCompatActivity {
             }
         });
 
-            }
+    }
+
+
+    //Metodo pare elejir fragment
+
+    public void showSelectedFragment(Fragment fragment){
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE).commit();
+    }
 }
