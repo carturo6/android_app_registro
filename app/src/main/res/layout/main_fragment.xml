@@ -36,7 +36,7 @@
 
 
 
-    <!-- Agregando seccion del layout con la bienvenida -->
+    <!-- Agregando seccion del layout con el logo -->
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -46,33 +46,20 @@
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
 
-    <!--
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="100px"
-            android:layout_marginTop="100px"
-            android:layout_marginRight="100px"
-            android:background="@drawable/gradiante_index_1"
-            android:text="Bienvenido."
-            android:textAlignment="center"
-            android:textColor="#fff"
-            android:textSize="40dp" />
 
-    -->
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:layout_marginTop="20dp"
+            android:layout_height="280dp"
+            android:layout_marginTop="40dp"
             android:layout_marginBottom="20dp"
+            android:background="@drawable/gradiente_index_info"
             android:src="@drawable/logo" />
     </LinearLayout>
 
 
 
-    <!--Agregando el layout para informacion-->
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

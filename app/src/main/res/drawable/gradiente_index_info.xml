@@ -6,7 +6,7 @@
         android:gradientRadius="100%p"
         android:startColor="@color/cyan300"
 
-        android:endColor="@color/cyan600"/>
+        android:endColor="@color/cyan700"/>
 
     <corners
         android:radius="100dp"/>
