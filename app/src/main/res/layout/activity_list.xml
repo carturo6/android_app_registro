@@ -20,13 +20,19 @@
             android:layout_width="match_parent"
             android:layout_marginTop="200dp"
             android:layout_height="5dp"
-            android:background="?android:attr/listDivider" />
+            android:background="@color/cyan700" />
 
         <ImageView
             android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/logo" />
+            android:text="TextView" />
 
 
     </FrameLayout>
