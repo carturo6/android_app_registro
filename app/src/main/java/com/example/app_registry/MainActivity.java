@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.app_registry.fragments.HomeFragment;
 import com.example.app_registry.ui.main.MainFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Accion para el boton. Cuando se clickea sale un mensaje.
-                Toast.makeText(MainActivity.this, "Buton click", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Bienvenido", Toast.LENGTH_LONG).show();
 
                 //Accediando al segundo activity - pantall del activity_list
                 Intent intent = new Intent(MainActivity.this, Activity_List.class);
