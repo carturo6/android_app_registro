@@ -3,13 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/azul600"
+    android:background="@color/cyan600"
     tools:context=".fragments.AddFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:background="@color/cyan700"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="80dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Porfavor, ingresar la catidad obtenida:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
 
 </FrameLayout>
