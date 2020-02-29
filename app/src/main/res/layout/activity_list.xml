@@ -11,7 +11,28 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:ignore="NotSibling"/>
+        android:background="@color/cyan800"
+        tools:ignore="NotSibling">
+
+        <View
+            android:id="@+id/divider"
+            android:backgroundTint="@color/blanco"
+            android:layout_width="match_parent"
+            android:layout_marginTop="200dp"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo" />
+
+
+    </FrameLayout>
+
+
+
 
 
 
