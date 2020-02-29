@@ -29,9 +29,10 @@
             app:srcCompat="@drawable/logo" />
 
         <TextView
+            android:background="@color/cyan700"
             android:id="@+id/textView"
-            android:layout_width="1000px"
-            android:layout_height="300px"
+            android:layout_width="410dp"
+            android:layout_height="400px"
             android:textSize="20dp"
             android:layout_marginTop="300dp"
             android:textColor="@color/blanco"
