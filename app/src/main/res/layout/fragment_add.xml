@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cyan600"
+    android:background="@color/gray300"
     tools:context=".fragments.AddFragment">
 
     <LinearLayout
@@ -24,6 +24,93 @@
             android:layout_height="wrap_content"/>
 
     </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="210dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray900"
+                android:textSize="18dp"
+                android:text="Hora:" />
+
+            <EditText
+                android:id="@+id/editTime"
+                android:background="@color/blanco"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:ems="10"
+                android:inputType="numberSigned" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/gray900"
+                android:text="Fecha:" />
+
+            <EditText
+                android:id="@+id/editDate"
+                android:background="@color/blanco"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:ems="10"
+                android:inputType="date" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="128dp">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Medición:"
+                android:textColor="@color/gray900"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:background="@color/blanco"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:ems="10"
+                android:inputType="numberSigned" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
 
 
 </FrameLayout>
