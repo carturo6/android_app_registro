@@ -36,6 +36,7 @@
 
             <TextView
                 android:id="@+id/textView2"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -47,8 +48,10 @@
                 android:id="@+id/editTime"
                 android:background="@color/blanco"
                 android:layout_marginTop="30dp"
-                android:layout_marginLeft="10dp"
-                android:layout_width="300dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:layout_width="100dp"
+
                 android:layout_height="30dp"
                 android:ems="10"
                 android:inputType="numberSigned" />
@@ -62,6 +65,7 @@
 
             <TextView
                 android:id="@+id/textView3"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -73,8 +77,9 @@
                 android:id="@+id/editDate"
                 android:background="@color/blanco"
                 android:layout_marginTop="30dp"
-                android:layout_marginLeft="10dp"
-                android:layout_width="300dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:ems="10"
                 android:inputType="date" />
@@ -89,6 +94,7 @@
 
             <TextView
                 android:id="@+id/textView4"
+                android:layout_marginLeft="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
@@ -100,8 +106,9 @@
                 android:id="@+id/editText6"
                 android:background="@color/blanco"
                 android:layout_marginTop="30dp"
-                android:layout_marginLeft="10dp"
-                android:layout_width="300dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:ems="10"
                 android:inputType="numberSigned" />
