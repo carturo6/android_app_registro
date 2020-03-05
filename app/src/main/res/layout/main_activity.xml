@@ -54,7 +54,7 @@
             android:layout_marginTop="40dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/gradiente_index_info"
-            android:src="@drawable/logo" />
+            android:src="@drawable/M2" />
     </LinearLayout>
 
 
