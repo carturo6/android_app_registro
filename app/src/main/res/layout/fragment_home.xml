@@ -43,24 +43,24 @@
 
                 <ImageView
                     android:id="@+id/imageView7"
-                    android:layout_width="wrap_content"
+                    android:layout_width="400dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/logo" />
+                    android:src="@drawable/im1" />
 
                 <ImageView
                     android:id="@+id/imageView8"
-                    android:layout_width="wrap_content"
+                    android:layout_width="400dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/logo" />
+                    android:src="@drawable/im2" />
 
                 <ImageView
                     android:id="@+id/imageView9"
-                    android:layout_width="wrap_content"
+                    android:layout_width="400dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0"
-                    android:src="@drawable/im-1" />
+                    android:src="@drawable/im3" />
 
 
             </LinearLayout>
