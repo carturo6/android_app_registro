@@ -9,7 +9,7 @@
     <LinearLayout
         android:background="@color/cyan300"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
@@ -18,98 +18,69 @@
             android:textSize="18dp"
             android:textAlignment="center"
             android:text="Porfavor, ingresar la catidad obtenida:"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"/>
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
             android:layout_marginTop="60dp">
 
             <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginTop="30dp"
-                    android:text="Hora:"
-                    android:textColor="@color/gray900"
-                    android:textSize="18dp" />
 
                 <EditText
                     android:id="@+id/editTime"
-                    android:layout_width="100dp"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="110dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:layout_marginRight="90dp"
-
-                    android:background="@color/blanco"
-                    android:ems="10"
-                    android:inputType="numberDecimal" />
+                    android:hint="Hora."
+                    android:ems="15"
+                    android:inputType="time" />
 
 
             </TableRow>
 
             <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginTop="30dp"
-                    android:text="Fecha:"
-                    android:textColor="@color/gray900"
-                    android:textSize="18dp" />
+
 
                 <EditText
                     android:id="@+id/editDate"
-                    android:layout_width="100dp"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="110dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:layout_marginRight="90dp"
-                    android:background="@color/blanco"
-                    android:ems="10"
-                    android:inputType="date" />
+                    android:hint="Fecha."
+                    android:ems="20"
+                    android:inputType="datetime" />
 
 
             </TableRow>
 
             <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="128dp">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
 
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginTop="30dp"
-                    android:text="Medición:"
-                    android:textColor="@color/gray900"
-                    android:textSize="18dp" />
 
                 <EditText
                     android:id="@+id/editText6"
-                    android:layout_width="100dp"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="110dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
                     android:layout_marginTop="30dp"
-                    android:layout_marginRight="90dp"
-                    android:background="@color/blanco"
-                    android:ems="10"
+
+                    android:hint="Medicion."
+                    android:ems="20"
                     android:inputType="numberSigned" />
 
 
@@ -121,7 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginLeft="50dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="60dp"
                 android:layout_marginBottom="80dp"
                 android:layout_marginRight="50dp"
                 android:background="@drawable/borde_boton_redondo_add"
