@@ -3,11 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cyan300"
+    android:background="@color/gray400"
     tools:context=".fragments.ListFragment">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradiente_index_info"
+        android:orientation="vertical">
 
-
-
+    </LinearLayout>
 </ScrollView>
