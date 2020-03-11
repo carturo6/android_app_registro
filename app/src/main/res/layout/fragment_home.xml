@@ -21,7 +21,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="top"
-                android:layout_alignParentBottom="true"
                 android:layout_marginLeft="0dp"
                 app:itemBackground="@color/azul900"
                 app:itemIconTint="@color/gray900"
@@ -32,12 +31,12 @@
 
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="30dp" >
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp">
 
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="200dp">
 
 
@@ -45,27 +44,32 @@
                     android:id="@+id/imageView7"
                     android:layout_width="400dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:baselineAlignBottom="true"
                     android:src="@drawable/im1" />
 
                 <ImageView
                     android:id="@+id/imageView8"
                     android:layout_width="400dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:baselineAlignBottom="true"
                     android:src="@drawable/im2" />
 
                 <ImageView
                     android:id="@+id/imageView9"
                     android:layout_width="400dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0"
+                    android:baselineAlignBottom="true"
                     android:src="@drawable/im3" />
 
 
             </LinearLayout>
 
         </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
 
 
     </LinearLayout>
