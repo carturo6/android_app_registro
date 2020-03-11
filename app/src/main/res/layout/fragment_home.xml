@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/cyan300"
+    android:background="@color/gray400"
     tools:context=".fragments.HomeFragment">
 
 
@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="top"
                 android:layout_marginLeft="0dp"
-                app:itemBackground="@color/azul900"
+                app:itemBackground="@color/purple500"
                 app:itemIconTint="@color/gray900"
                 app:itemTextColor="@color/blanco"
                 app:menu="@menu/top_navigation" >
