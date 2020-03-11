@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cyan300"
+    android:background="@color/gray400"
     tools:context=".fragments.AddFragment">
 
     <LinearLayout
-        android:background="@color/cyan300"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/gradiente_index_info"
         android:orientation="vertical">
 
         <TextView
@@ -97,7 +97,7 @@
                 android:layout_marginRight="50dp"
                 android:background="@drawable/borde_boton_redondo_add"
                 android:text="Guardar"
-                android:textColor="#218dd0"
+                android:textColor="@color/purple900"
                 tools:ignore="MissingConstraints" />
 
 
