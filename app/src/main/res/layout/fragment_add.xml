@@ -27,6 +27,7 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:layout_marginTop="60dp">
@@ -37,7 +38,7 @@
 
 
                 <EditText
-                    android:id="@+id/editTime"
+                    android:id="@+id/hora"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
@@ -55,13 +56,13 @@
 
 
                 <EditText
-                    android:id="@+id/editDate"
+                    android:id="@+id/fecha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:hint="Fecha."
                     android:ems="20"
-                    android:inputType="datetime" />
+                    android:inputType="date" />
 
 
             </TableRow>
@@ -73,7 +74,7 @@
 
 
                 <EditText
-                    android:id="@+id/editText6"
+                    android:id="@+id/medicion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 
