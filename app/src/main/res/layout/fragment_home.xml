@@ -17,19 +17,6 @@
 
 
 
-            <com.google.android.material.bottomnavigation.BottomNavigationView
-                android:id="@+id/top_navigation"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top"
-                android:layout_marginLeft="0dp"
-                app:itemBackground="@color/purple500"
-                app:itemIconTint="@color/gray900"
-                app:itemTextColor="@color/blanco"
-                app:menu="@menu/top_navigation" >
-            </com.google.android.material.bottomnavigation.BottomNavigationView>
-
-
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
