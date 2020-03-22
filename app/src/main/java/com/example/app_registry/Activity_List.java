@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import com.example.app_registry.fragments.AddFragment;
 import com.example.app_registry.fragments.HomeFragment;
 import com.example.app_registry.fragments.ListFragment;
+import com.example.app_registry.Activity_menu.Activity_add;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Activity_List extends AppCompatActivity {

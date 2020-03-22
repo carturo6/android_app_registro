@@ -55,14 +55,14 @@
 
 
 
-                <EditText
-                    android:id="@+id/fecha"
+                <TextView
+                    android:id="@+id/fechaC"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:hint="Fecha."
+                    android:textColor="@color/blanco"
                     android:ems="20"
-                    android:inputType="date" />
+                     />
 
 
             </TableRow>
@@ -89,7 +89,7 @@
 
 
             <Button
-                android:id="@+id/btnRedondo"
+                android:id="@+id/btnGuardar"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginLeft="50dp"
