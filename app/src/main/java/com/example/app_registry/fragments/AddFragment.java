@@ -37,7 +37,7 @@ public class AddFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
+
         Date date = new Date();
         vista = inflater.inflate(R.layout.fragment_add, container, false);
 
@@ -63,7 +63,7 @@ public class AddFragment extends Fragment {
         int mes = today.month;
         int anio = today.year;
         mes = mes+1;
-        fechaC.setText("Dia: " + dia +" Mes: " + mes + " Año " + anio);
+        fechaC.setText("Dia: " + dia +"     Mes: " + mes + "    Año: " + anio);
 
         return vista;
 
