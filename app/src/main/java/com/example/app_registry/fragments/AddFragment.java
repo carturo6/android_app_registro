@@ -71,7 +71,7 @@ public class AddFragment extends Fragment {
         mes = mes+1;
         fechaC.setText("Dia: " + dia +"     Mes: " + mes + "    Año: " + anio);
 
-
+        return;
     }
 
 
