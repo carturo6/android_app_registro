@@ -70,7 +70,7 @@ public class AddFragment extends Fragment {
         int anio = today.year;
         mes = mes+1;
         fechaC.setText("Dia: " + dia +"     Mes: " + mes + "    Año: " + anio);
-
+        int x = dia+mes+anio;
         return;
     }
 
