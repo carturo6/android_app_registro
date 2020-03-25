@@ -39,12 +39,14 @@
 
                 <EditText
                     android:id="@+id/hora"
-                    android:layout_width="match_parent"
+                    android:layout_width="425dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:hint="Hora."
                     android:ems="15"
+                    android:textColor="@color/purple900"
+                    android:hint="Hora."
                     android:inputType="time" />
+
 
 
             </TableRow>
@@ -78,12 +80,11 @@
                     android:id="@+id/medicion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
                     android:layout_marginTop="30dp"
-
                     android:hint="Medicion."
                     android:ems="20"
-                    android:inputType="numberSigned" />
+                    android:textColor="@color/purple800"
+                    android:inputType="numberDecimal" />
 
 
             </TableRow>

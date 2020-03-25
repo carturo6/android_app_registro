@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.example.app_registry.R;
 
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 /**
@@ -38,28 +39,30 @@ public class AddFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
         Date date = new Date();
         vista = inflater.inflate(R.layout.fragment_add, container, false);
-
         btn = (Button) vista.findViewById(R.id.btnGuardar);
         fechaC = (TextView) vista.findViewById(R.id.fechaC);
         hora = (EditText) vista.findViewById(R.id.hora);
-/*
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                hora.setText(new Date().toString());
-            }
-        });
-*/
+
+        //SOLICITANDO FECHA MEDIANTE LA FUNCION.
+        implements_fecha();
+
+
+
+
+
+        return vista;
+
+
+    }
+
+
+    public void implements_fecha (){
+
 
         Time hora = new Time(Time.getCurrentTimezone());
         hora.setToNow();
-
-
         Time today = new Time(Time.getCurrentTimezone());
         today.setToNow();
         int dia = today.monthDay;
@@ -68,11 +71,8 @@ public class AddFragment extends Fragment {
         mes = mes+1;
         fechaC.setText("Dia: " + dia +"     Mes: " + mes + "    Año: " + anio);
 
-        return vista;
-
 
     }
-
 
 
 }
