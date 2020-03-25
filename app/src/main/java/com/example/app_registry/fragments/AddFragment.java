@@ -23,6 +23,13 @@ import java.util.Date;
  */
 public class AddFragment extends Fragment {
 
+
+    EditText hora;
+    EditText fecha;
+    TextView fechaC;
+    Button btn;
+    View vista;
+
     public AddFragment() {
         // Required empty public constructor
     }
@@ -31,7 +38,6 @@ public class AddFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
 
 
 
